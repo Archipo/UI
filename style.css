@@ -1,0 +1,123 @@
+/* index */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1F59D6;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #D66C1F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #1F8BD6;
+    color: #E01830;
+  }
+
+  /* footer */ 
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #1F59D6;
+    color: #D66C1F;
+    text-align: center;
+  }
+
+  /* authentification */
+  .container{
+
+    color:  #D66C1F;
+
+  }
+
+  button {
+    background-color: #1F59D6;
+    color: #D66C1F;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #FADF06;
+  }
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  body, html {
+    height: 100%;
+}
+
+/* banner */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://blog.creativelive.com/wp-content/uploads/2015/06/photographer-692035_640.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #D66C1F;
+}
+
+/* Cards */
+
+.card {
+    max-width: 18rem;
+}
+
+.card-header {
+    color: #D66C1F;
+    background-color: #1F59D6;
+}
+
+.card-title {
+    color: #D66C1F;
+}
+
+.card-text {
+    color: #D66C1F;
+}
+
+/* Element */
+
+.slice-lg {
+    padding-bottom: 6rem;
+}
+
+
+
+
+
